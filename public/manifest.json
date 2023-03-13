@@ -1,8 +1,8 @@
 {
-  "name": "Next.JS Progressive Web App",
-  "short_name": "Next PWA",
+  "name": "TubeSnag",
+  "short_name": "TubeSnag",
   "theme_color": "#ffffff",
-  "background_color": "#004740",
+  "background_color": "#023833",
   "display": "fullscreen",
   "orientation": "portrait",
   "scope": "/",
