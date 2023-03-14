@@ -31,7 +31,10 @@ export default function Home() {
           type="image/png"
           sizes="32x32"
         />
-        <link rel="apple-touch-icon" href="/apple-icon.png"></link>
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png"></link>
+        <link rel="android-chrome-192x192" href="/icons/android-chrome-192x192.png"></link>
+        <link rel="android-chrome-512x512" href="/icons/android-chrome-512x512.png"></link>
+
         <meta name="theme-color" content="#317EFB" />
       </Head>
       <main >
