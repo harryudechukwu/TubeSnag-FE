@@ -1,8 +1,8 @@
 {
   "name": "TubeSnag",
   "short_name": "TubeSnag",
-  "theme_color": "#1c1c1c",
-  "background_color": "#1c1c1c",
+  "theme_color": "#f9f4ef",
+  "background_color": "#f9f4ef",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",

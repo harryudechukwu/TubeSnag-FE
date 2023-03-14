@@ -3,8 +3,10 @@ import Head from 'next/head'
 // import { Inter } from 'next/font/google'
 
 // const inter = Inter({ subsets: ['latin'] })
+import React from 'react'
+import Header from '@/components/header'
 
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
     <>
       <Head>
@@ -37,15 +39,7 @@ export default function Home() {
 
         <meta name="theme-color" content="#317EFB" />
       </Head>
-      <main >
-       
-
-        <h1 className="text-3xl font-bold underline">
-          TubeSnag
-        </h1>
-
-   
-      </main>
+      <Header />
     </>
   )
 }
