@@ -16,7 +16,7 @@ export default function Header(): JSX.Element {
             `}>
             <div className="flex gap-2
             items-center">
-                <Image src="/logo.png" alt="TubeSnag" width={30} height={30} />
+                <Image src="/logo.svg" alt="TubeSnag" width={30} height={30} />
                 <h2
                     className="text-2xl font-bold">
                     tubesnag.
@@ -63,7 +63,7 @@ export default function Header(): JSX.Element {
 
                         "
                         >
-                            <Image src="/heart.png" alt="heart" width={20} height={20} />
+                            <Image src="/heart.svg" alt="heart" width={20} height={20} />
                             Sponsor Project
                         </button>
                     </li>
