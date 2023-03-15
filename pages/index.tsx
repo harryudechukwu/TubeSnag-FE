@@ -46,7 +46,7 @@ Make youtube your personal library. Download videos and keep your favorites fore
           href="/icons/android-chrome-512x512.png"
         ></link>
 
-        <meta name="theme-color" content="#317EFB" />
+        <meta name="theme-color" content="#bc15e6" />
       </Head>
       <Header />
       <Main />

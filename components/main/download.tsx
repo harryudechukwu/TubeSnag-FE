@@ -91,7 +91,7 @@ const SingleDownloadForm = () => {
                     w-full
                     px-4
                     "
-      >
+ >
         <input
           type="url"
           required
@@ -156,9 +156,11 @@ const BatchDownloadForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}
+      className="flex flex-col items-center justify-center gap-4"
+    >
       <div
-        className="mb-4 w-full px-4"
+        className="mb-2 w-full px-4"
       >
         <h2 className="text-center text-lg font-medium">Download multiple videos
           {"  "}
@@ -170,14 +172,18 @@ const BatchDownloadForm = () => {
         .
         </h2>
       </div>
-      <div className="flex flex-col items-center justify-center gap-4">
+      <div className="flex w-full flex-col items-center justify-center gap-4">
         {youtubeLinks.map((input, index) => (
           <div className="w-full px-4" key={index}>
             <input
               type="url"
               required
               placeholder="Paste your youtube video link here."
-              className="w-full rounded-md border border-gray-300 p-4 text-lg font-medium focus:border-[#845eee94] focus:outline-transparent"
+              className="w-full rounded-md border border-gray-300 p-4
+                        text-lg
+                        font-medium
+                        focus:border-[#845eee94]
+                        focus:outline-transparent"
               value={input}
               onChange={(event) => handleInputChange(index, event)}
             />
