@@ -80,6 +80,13 @@ const SingleDownloadForm = () => {
       onSubmit={handleSubmit}
     >
       <div
+        className="mb-2 w-full px-4"
+      >
+        <h2 className="text-center text-lg font-medium">Download a single video.
+          
+        </h2>
+      </div>
+      <div
         className="
                     w-full
                     px-4
@@ -150,6 +157,19 @@ const BatchDownloadForm = () => {
 
   return (
     <form onSubmit={handleSubmit}>
+      <div
+        className="mb-4 w-full px-4"
+      >
+        <h2 className="text-center text-lg font-medium">Download multiple videos
+          {"  "}
+        <span
+        className="text-[#3500c794] underline"
+        >
+            (max 4)
+        </span>
+        .
+        </h2>
+      </div>
       <div className="flex flex-col items-center justify-center gap-4">
         {youtubeLinks.map((input, index) => (
           <div className="w-full px-4" key={index}>
