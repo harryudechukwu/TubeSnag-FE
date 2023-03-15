@@ -9,10 +9,9 @@ export default function Download(): JSX.Element {
 
   return (
     <div
-      className="mx-auto my-10 flex max-w-[900px] flex-col items-center
+      className="mx-auto my-20 flex max-w-[900px] flex-col items-center
             justify-center
-            gap-8
-            
+            gap-8 
             "
     >
       <div className="flex items-center justify-center gap-4">
