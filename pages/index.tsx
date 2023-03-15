@@ -1,11 +1,7 @@
 import Head from 'next/head'
-// import Image from 'next/image'
-// import { Inter } from 'next/font/google'
-
-// const inter = Inter({ subsets: ['latin'] })
 import React from 'react'
 import Header from '@/components/header'
-
+import Main from '@/components/main'
 export default function Home(): JSX.Element {
   return (
     <>
@@ -16,8 +12,11 @@ export default function Home(): JSX.Element {
           name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
         />
-        <meta name="description" content="Description" />
-        <meta name="keywords" content="Keywords" />
+        <meta name="description" content="Download your favorite youtube videos in a SNAP.No fuss, Just fun!
+Make youtube your personal library. Download videos and keep your favorites forever.
+
+" />
+        <meta name="keywords" content="Youtube Download video " />
         <title>TubeSnag</title>
 
         <link rel="manifest" href="/manifest.json" />
@@ -40,6 +39,7 @@ export default function Home(): JSX.Element {
         <meta name="theme-color" content="#317EFB" />
       </Head>
       <Header />
+      <Main />
     </>
   )
 }

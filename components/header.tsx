@@ -2,9 +2,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import PropTypes from 'prop-types';
 import Hamburger from 'hamburger-react'
-import { Inter } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Header(): JSX.Element {
     const [navIsOpen, setNavIsOpen] = useState(false);
@@ -12,7 +10,7 @@ export default function Header(): JSX.Element {
     return (
         <header
             className={`flex justify-between items-center p-4 h-20 sm:px-8 md:px-10 lg:px-16 bg-[#f7f7f7]
-            ${inter.className}
+          
             `}>
             <div className="flex gap-2
             items-center">
