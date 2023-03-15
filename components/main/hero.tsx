@@ -1,110 +1,93 @@
-import { Silkscreen } from 'next/font/google'
+import { Silkscreen } from "next/font/google";
 
-
-
-
-const silkscreen = Silkscreen(
-    {
-        weight: "700",
-        subsets: ['latin'],
-    },
-)
-
+const silkscreen = Silkscreen({
+  weight: "700",
+  subsets: ["latin"],
+});
 
 export default function Hero(): JSX.Element {
-
-    return (
-        <div 
-        className={`flex flex-col items-center justify-center gap-4
-        my-10
+  return (
+    <div
+      className={`my-10 flex flex-col items-center justify-center
+        gap-4
         `}
-        >
-             <div className="">
-                <h1
-                className='text-2xl font-bold text-center
+    >
+      <div className="">
+        <h1
+          className="mx-auto mb-6 max-w-[900px]
                 px-4
-                mx-auto
-                mb-6
+                text-center
+                text-2xl
+                font-bold
                 leading-[1.4]
-                md:text-5xl
-                max-w-[900px]
-                md:leading-[1.6]
-                sm:text-4xl
                 sm:px-4
-                '
-                >
-                    Download your favorite youtube <span
-                        className='
+                sm:text-4xl
+                md:text-5xl
+                md:leading-[1.6]
+                "
+        >
+          Download your favorite youtube{" "}
+          <span
+            className="
                         bg-gradient-to-br
                         from-[#C70AF6]
                         to-[#3D00EC]
-                        text-transparent
                         bg-clip-text
-                        '
-                    >videos</span> <span
-                        className='text-[#D1CECC]'
-                    >
-                        in a <span
-                            className={`${silkscreen.className}`}
-                        >SNAP.</span>
-                        No fuss, Just fun!
-                    </span>
-
-                    
-                </h1>
-                <h2
-                className='text-center
+                        text-transparent
+                        "
+          >
+            videos
+          </span>{" "}
+          <span className="text-[#D1CECC]">
+            in a <span className={`${silkscreen.className}`}>SNAP.</span>
+            No fuss, Just fun!
+          </span>
+        </h1>
+        <h2
+          className="mx-auto
+                max-w-[650px]
+                px-4
+                text-center
                 text-xl
                 text-[#8E8E93]
-                max-w-[650px]
-                mx-auto
-                px-4
-                '
-                >
-                    Make youtube your personal library. Download videos and keep your favorites forever.
-                </h2>
-            </div>
+                "
+        >
+          Make youtube your personal library. Download videos and keep your
+          favorites forever.
+        </h2>
+      </div>
 
-            <div
-            className='absolute
+      <div
+        className="absolute
+            top-[200px]
+            right-[200px]
             h-[200px]
             w-[200px]
-            border-2
-            rounded-full
-             sm:bg-gradient-to-b
+             animate-pulse
+                        rounded-full
+                        border-2
                         from-[#C70AF6]
                         to-[#3D00EC]
                         blur-[150px]
-                        top-[200px]
-                        right-[200px]
-                        animate-pulse
-                        '>
+                        sm:bg-gradient-to-b
+                        "
+      ></div>
 
-               
-
-            </div>
-
-            <div
-                className='absolute
+      <div
+        className="absolute
+            top-[500px]
+            left-[200px]
             h-[200px]
             w-[200px]
-            border-2
-            rounded-full
-             sm:bg-gradient-to-b
+             animate-pulse
+                        rounded-full
+                        border-2
                         from-[#C70AF6]
                         to-[#3D00EC]
                         blur-[150px]
-                        top-[500px]
-                        left-[200px]
-                        animate-pulse
-                        '>
-
-
-
-            </div>
-
-        </div>
-
-        
-    )
+                        sm:bg-gradient-to-b
+                        "
+      ></div>
+    </div>
+  );
 }
