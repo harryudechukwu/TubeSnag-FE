@@ -108,13 +108,12 @@ const SingleDownloadForm = () => {
         <button
           className="rounded-md border border-gray-300 bg-gradient-to-br from-[#C70AF6]
                         to-[#3D00EC]
-                        px-8
-
-                        py-2
-                        font-semibold
+                        px-20
+                        py-3
+                        font-medium
                         text-white
-                        sm:px-16
-                        md:px-20
+                        sm:px-30
+                        md:px-40
 
                         "
         >
