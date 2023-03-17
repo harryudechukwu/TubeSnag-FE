@@ -32,16 +32,35 @@ export default function Download(): JSX.Element {
         </div>
         <div>
           <button
-            className={`rounded-full border px-4 py-2
+            className={`relative rounded-full border px-4 py-2
+           
                         ${
                           downloadType === "batch"
                             ? "border-[#845eee94]"
-                            : "border-gray-300"
+                            : "border-transparent"
                         }
                         `}
-            onClick={() => handleDownloadType("batch")}
+            onClick={() => handleDownloadType("batch")
+          
+          }
+          disabled
           >
             Batch Download
+            <span
+              className="absolute 
+              top-[-10px]
+            right-[-10px]
+            rounded-md
+            bg-[#F3E3F7]
+            p-1
+            text-xs
+            font-medium
+            text-[#C70AF6]
+           
+            "
+            >
+              NEW
+            </span>
           </button>
         </div>
       </div>
@@ -106,17 +125,13 @@ const SingleDownloadForm = () => {
 
       <div>
         <button
-          className="rounded-md border border-gray-300 bg-gradient-to-br from-[#C70AF6]
-                        to-[#3D00EC]
+          className="rounded-md border border-gray-300 bg-[#3D00EC]
                         px-20
-                        py-3
+                      
+                        py-4
                         font-medium
                         text-white
-                        sm:px-30
-                        md:px-40
-
-                        "
-        >
+                         sm:px-32 md:px-40">
           Fetch Video
         </button>
       </div>
@@ -198,8 +213,15 @@ const BatchDownloadForm = () => {
           </button>
         )}
         <button
-          type="submit"
-          className="rounded-md border border-gray-300 bg-gradient-to-br from-[#C70AF6] to-[#3D00EC] px-8 py-2 font-semibold text-white sm:px-16 md:px-20"
+          className="rounded-md border border-gray-300 bg-[#3D00EC]
+                        px-20
+                        py-4
+                        font-medium
+                        text-white
+                        sm:px-32
+                        md:px-40
+
+                        "
         >
           Fetch Video
         </button>
