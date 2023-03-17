@@ -118,7 +118,10 @@ const SingleDownloadForm = () => {
                         text-lg
                         font-medium
                         focus:border-[#845eee94]
-                        focus:outline-transparent"
+                        focus:outline-transparent
+                        
+                        shadow-[3px_rgb(0,0,0,0.2)]
+                        "
           onChange={handleYoutubeLink}
         />
       </div>

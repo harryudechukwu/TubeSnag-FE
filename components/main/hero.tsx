@@ -17,7 +17,7 @@ export default function Hero(): JSX.Element {
           className="mx-auto mb-6 max-w-[900px]
                 px-4
                 text-center
-                text-2xl
+                text-3xl
                 font-bold
                 leading-[1.4]
                 sm:px-4
@@ -48,7 +48,7 @@ export default function Hero(): JSX.Element {
                 max-w-[650px]
                 px-4
                 text-center
-                text-xl
+                text-lg
                 text-[#8E8E93]
                 "
         >
