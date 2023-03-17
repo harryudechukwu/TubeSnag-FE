@@ -1,7 +1,7 @@
 import { Silkscreen } from "next/font/google";
 
 const silkscreen = Silkscreen({
-  weight: "700",
+  weight: "400",
   subsets: ["latin"],
 });
 
