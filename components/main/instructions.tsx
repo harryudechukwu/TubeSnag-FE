@@ -19,7 +19,7 @@ function instructions() {
           </div>
           <figure className="mt-12">
             <blockquote className="text-center text-2xl font-bold leading-8 text-gray-900  sm:leading-9">
-              <p><span className={`${silkscreen.className} text-indigo-700 `}>How</span> tubesnag works?</p>
+              <p><span className={`${silkscreen.className} text-indigo-700`}>How</span> tubesnag works?</p>
             </blockquote>
           </figure>
 
