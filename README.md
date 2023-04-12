@@ -6,6 +6,7 @@
 
 
 ### [Demo](https://tubesnag.vercel.app/)
+### [Figma File](https://www.figma.com/file/3Ch8nzaEyFYlVH7Ui21zsY/tubesnag?node-id=0%3A1&t=AgA2sulK5L2jwdIj-1)
 
 
 <br />
@@ -24,6 +25,10 @@
 <b>- **TailwindCSS** 🚀</b>
 
 
-<br /><br />
+<br />
 <b>The page will reload if you make edits. :)</b> <br />
 <b>You will also see any lint errors in the console.</b>
+
+<br /><br /><br />
+## <b style="color: purple;"># Built with ❤ By <a href="https://github.com/3io-dev" target="_blank" rel="noopener noreferrer">Trio</a></b>
+
