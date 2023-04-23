@@ -15,7 +15,7 @@ function instructions() {
         <div className="mx-auto max-w-2xl lg:max-w-4xl">
 
           <div className="mt-10">
-            <Image src="/apple-touch-icon.png" className="mx-auto h-10 w-10 rounded-full" alt="icon" width={10} height={10} />
+            <Image src="/favicon.ico" className="mx-auto h-14 w-14 rounded-full" alt="icon" width={14} height={14} />
           </div>
           <figure className="mt-12">
             <blockquote className="text-center text-2xl font-bold leading-8 text-gray-900  sm:leading-9">

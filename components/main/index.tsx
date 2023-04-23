@@ -5,8 +5,7 @@ import Instuctions from "../main/instructions";
 
 export default function Main(): JSX.Element {
   return (
-    <main
-    >
+    <main>
       <Hero />
       <Download />
       <Instuctions/>
