@@ -8,7 +8,7 @@ export default function Header(): JSX.Element {
 
   return (
     <header
-      className={`flex h-20 items-center justify-between border-b border-gray-300 p-4 sm:px-8 md:px-10 lg:px-16
+      className={`flex z-20 h-20 items-center justify-between border-b border-gray-300 p-4 sm:px-8 md:px-10 lg:px-16
           
             `}
     >
