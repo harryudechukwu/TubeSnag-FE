@@ -23,6 +23,7 @@ export default function Header(): JSX.Element {
         className={`
                 fixed
                 top-0
+                z-10
                 bg-[#ffffff]
                
                 ${navIsOpen ? "right-0" : "-right-full"}
